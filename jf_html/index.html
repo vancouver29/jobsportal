@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<title>JobFinds | Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width</option>initial-scale=1.0"/>
+	<meta name="description" content="" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/kickstart.js"></script>
+</head>
+<body>
+<div id="container" class="grid">
+	<header>
+		<div class="col_6 column">
+			<h1><span>Job</span>Finds</h1>
+		</div>
+		<div class="col_6 column">
+			<form>
+				<button class="large blue"><i class="fa fa-plus"></i>Add Job </button>
+			</form>
+		</div>
+	</header>
+
+	<div class="col_12 column">
+		<!-- Menu Horizontal -->
+		<ul class="menu">
+			<li class="current"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href=""><i class="fa fa-desktop"></i>Browse Jobs</a></li>
+			<li><a href="register.html"><i class="fa fa-user"></i>Register</a></li>
+			<li><a href="login.html"><i class="fa fa-key"></i>Login</a></li>
+		</ul>
+	</div>
+
+	<div id="search_area" class="col_12 column">
+		<form class="fa-horizontal" method="post" action="#">
+			<input id="keywords" type="text" placeholder="Enter Keywords...">
+			<select id="state_select">
+				<option>Select State</option>
+				<option value=BW>Baden-Wuerttemberg</option>
+				<option value="BY">Bavaria</option>
+				<option value="BE">Berlin</option>
+				<option value="BB">BrandenBurg</option>
+				<option value="HB">Bremen</option>
+				<option value="HH">Hamburg</option>
+				<option value="HE">Hesse</option>
+				<option value="NI">Lower-Saxony</option>
+				<option value="MV">Mecklenburg Vorpommern</option>
+				<option value="NW">North Rhine-Westphalia</option>
+				<option value="RP">Rhineland-Palatinate</option>
+				<option value="SL">Saarland</option>
+				<option value="SN">Saxony</option>
+				<option value="ST">Saxony-Anhalt</option>
+				<option value="SH">Schleswig-Holstein</option>
+				<option value="TH">Thuringia</option>
+			</select>
+			<select id="category_select">
+				<option>Select Category</option>
+				<option>Accounting & Banking</option>
+				<option>Construction</option>
+				<option>Fashion & Style</option>
+				<option>Food & Restaurant</option>
+				<option>Healthcare</option>
+				<option>Retail & Sales</option>
+				<option>Technology</option>
+			</select>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<div class="col_12 column">
+		<h3>Latest Job Listings</h3>
+		<ul id="listings">
+			<li>
+				<div class="type">
+					<span class="green">Full Time</span>
+				</div>
+				<div class="description">
+					<h5>Senior Graphic Designer (Burlington, MA)</h5>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+					ut laoreet dolore magna aliquam erat volutpat.<a href="details.html"> <i class="fa fa-plus"></i> Read More</a>
+				</div>
+			</li>
+			<li>
+				<div class="type">
+					<span class="green">Full Time</span>
+				</div>
+				<div class="description">
+					<h5> UX Designer (Newburyport, MA)</h5>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+					ut laoreet dolore magna aliquam erat volutpat.<a href="details.html"> <i class="fa fa-plus"></i> Read More</a>
+				</div>
+			</li>
+			<li>
+				<div class="type">
+					<span class="blue">Part Time</span>
+				</div>
+				<div class="description">
+					<h5>Registered Nurse (Brooklyn, NY)</h5>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+					ut laoreet dolore magna aliquam erat volutpat.<a href="details.html"> <i class="fa fa-plus"></i> Read More</a>
+				</div>
+			</li>
+			<li>
+				<div class="type">
+					<span class="green">Full Time</span>
+				</div>
+				<div class="description">
+					<h5>House Painter(Boston, MA)</h5>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+					ut laoreet dolore magna aliquam erat volutpat.<a href="details.html"><i class="fa fa-plus"></i>Read More</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="clearfix"></div>
+	<footer>
+		<p>Copyright &copy; 2020, JobFinds, All Rights Reserved</p>
+	</footer>
+
+`</div><!-- End Grid -->
+</body>
+</html>
